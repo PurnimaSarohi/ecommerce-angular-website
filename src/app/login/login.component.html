@@ -1,0 +1,32 @@
+<div fxLayout="row" class="page-wrap" fxLayoutAlign="space-around-center">
+    <mat-card-title><img src="../assets/img/login-haed.png" class="title-icon-image"></mat-card-title>
+    <div fxFlex="100" fxLayout="row">
+        <p><span fxFlex="30"><img class="example-icon-image" mat-card-image src="../assets/img/fb-icon.png"></span>
+            <span fxFlex="3"></span><span fxFlex="65"><img class="example-icon-image" mat-card-image
+                    src="../assets/img/google-icon.png"></span>
+        </p>
+    </div>
+    <mat-card-content>
+        <form>
+            <mat-form-field appearance="fill">
+                <mat-label>Email Address</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <div class="forgot-link">
+                <a mat-button routerLink="/forgotPassword" href="">Forgot Password?</a>
+            </div>
+            <br>
+            <div class="example-button-row">
+                <button mat-raised-button color="primary" id="btn1">Login</button>
+            </div>
+            <div class="signUp-link">
+                Don't have an account? <a mat-button routerLink="/registration" color="primary" href="">Sign Up?</a>
+            </div>
+        </form>
+    </mat-card-content>
+</div>

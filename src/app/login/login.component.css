@@ -1,0 +1,44 @@
+form {
+    max-width: 400px;
+    margin: auto;
+}
+mat-form-field {
+    display: block;
+    border-radius: 50px;
+}
+
+.page-wrap {
+    margin: auto;
+    max-width: 400px;
+    padding: 50px;
+}
+#btn1 {
+    width: 400px;
+    border-radius: 20px;
+    background-color: hsl(216, 82%, 58%);
+}
+.example-icon-image {
+    border: solid;
+    width: 50px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-color: darkblue;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+.title-icon-image {
+    width: 70px;
+    padding: 70px;
+    margin-left: 80px;
+}
+mat-label {
+    color: hsl(216, 82%, 58%);
+    font-weight: 500;
+}
+.signUp-link {
+    text-align: center;
+}
+.forgot-link {
+    text-align: right;
+    color: orange;
+}

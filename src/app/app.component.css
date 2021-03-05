@@ -1,0 +1,10 @@
+.cloth-logo
+{
+ height:100px;
+ width:100px;
+}
+.container {
+  min-height: 100%;
+  width: 90%;
+  margin: auto;
+}

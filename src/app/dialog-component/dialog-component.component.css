@@ -1,0 +1,10 @@
+.mat-dialog-actions{
+    justify-content: flex-end;
+    }
+.text
+{
+    font-size:bold;
+    font-weight: bold;
+    text-decoration: darkslategray;
+    text-align: center;
+}

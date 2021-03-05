@@ -1,0 +1,53 @@
+<div fxLayout="row" class="page-wrap" fxLayoutAlign="space-around-center">
+    <mat-card-title><img src="../assets/img/register-head.png" class="title-icon-image"></mat-card-title>
+    <mat-card-content>
+        <form>
+            <span>First Name *</span>
+            <mat-form-field appearance="fill">
+                <mat-label>First Name</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <br>
+            <span>Last Name *</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Last Name</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <span>Mobile Number *</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Mobile Number</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <br>
+            <span>Email Address*</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Email Address</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <br>
+            <span>Date of Birth *</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Date of Birth</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <br>
+            <span>Password *</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <br>
+            <span>Confirm Password *</span>
+            <mat-form-field appearance="fill">
+                <mat-label>Confirm Password</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <br>
+            <div class="example-button-row">
+                <button mat-raised-button color="primary" id="btn1">Create Account</button>
+            </div>
+        </form>
+    </mat-card-content>
+</div>

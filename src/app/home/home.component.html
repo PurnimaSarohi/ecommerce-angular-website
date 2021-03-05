@@ -1,0 +1,113 @@
+  <div class="menu">
+    &#160;
+    <button mat-button routerLink='NavToLogin'>
+      <h2>LOGIN</h2>
+    </button>
+    &#160;
+    <button mat-button routerLink='signup'>
+      <h2>CREATE ACCOUNT</h2>
+    </button>
+    &#160;
+    <button mat-button [matMenuTriggerFor]="beforeMenu">
+      <h2>CATEGORIES</h2>
+    </button>
+    <mat-menu #beforeMenu="matMenu" xPosition="before">
+      <button mat-menu-item>JEWELLERY</button>
+      <button mat-menu-item>MEN'S WEAR</button>
+      <button mat-menu-item routerLink="/productdetails">WOMEN'S WEAR</button>
+      <button mat-menu-item>ELECTRONICE</button>
+    </mat-menu>
+    &#160;
+    <button mat-button [matMenuTriggerFor]="beforeMenu1">
+      <h2>ABOUT US</h2>
+    </button>
+    <mat-menu #beforeMenu1="matMenu" xPosition="before">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  </div>
+ 
+
+    <img src="assets/img/cart3.jpg" class="addtocartlogo" routerLink="/cartdetails"/>
+    <div class="centered">
+</div>
+ 
+  
+
+  
+  <div class="storiescontainer">
+    <div class="headlines">
+      CATEGORY IN FOCUS
+    </div>
+  
+    <div class="container"
+       fxLayout
+       fxLayout.xs="row wrap"
+       fxLayoutAlign="space-around center"
+       fxLayoutGap="16px"
+       fxLayoutGap.xs="0">
+  <div class="item item-1">
+   <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Women's Western Wear</mat-card-title>
+      <mat-card-subtitle>Up to 70% off</mat-card-subtitle>
+    </mat-card-header>
+       <img class="example-icon-image" routerLink='/productdetails' mat-card-image src="assets\img\women-27s-western-wear-dresses-500x500.png" alt="Photo of a Shiba Inu">
+       <mat-card-content>
+         <p>
+          <button routerLink='/productdetails'>View All</button>
+        </p>
+       </mat-card-content>
+       </mat-card>
+  </div>
+  <div class="item item-2" fxFlexOrder="3">
+   <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Women's Western Wear</mat-card-title>
+      <mat-card-subtitle>Up to 70% off</mat-card-subtitle>
+    </mat-card-header>
+       <img class="example-icon-image" mat-card-image src="assets\img\mens-wear.jpg" alt="Photo of a Shiba Inu">
+       <mat-card-content>
+        <p>
+          View All
+        </p>
+       </mat-card-content>
+   </mat-card>
+  </div>
+  
+  <div class="item item-3" >
+   <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Jewellery</mat-card-title>
+      <mat-card-subtitle>New Collection!!</mat-card-subtitle>
+    </mat-card-header>
+       <img class="example-icon-image" mat-card-image src="assets\img\jewelery-logo.jpg" alt="Photo of a Shiba Inu">
+       <mat-card-content>
+        <p>
+          View All
+        </p>
+       </mat-card-content>
+   </mat-card>
+  </div>
+  <div class="item item-4">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Electronice & More </mat-card-title>
+        <mat-card-subtitle>Up to 50% off!!</mat-card-subtitle>
+      </mat-card-header>
+      <img class="example-icon-image" mat-card-image src="assets\img\electronics-logo.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          View All
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  </div>
+  </div>
+  
+  
